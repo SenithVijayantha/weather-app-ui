@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(41, 141, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.ui-container{
+    background-color: black;
+    height: 430px;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.209) 0px 54px 55px, rgba(0, 0, 0, 0.495) 0px -12px 30px, rgba(0, 0, 0, 0.425) 0px 4px 6px, rgba(0, 0, 0, 0.476) 0px 12px 13px, rgba(0, 0, 0, 0.487) 0px -3px 5px;
+}
+
+.blue-container{
+    background: rgb(25,183,206);
+    background: linear-gradient(180deg, rgba(25,183,206,1) 0%, rgba(28,168,204,1) 59%, rgba(27,107,173,1) 92%);
+    height: 75%;
+    width: 95%;
+    border-radius: 25px;
+    margin: 6px;
+    box-shadow: rgba(7, 170, 252, 0.278) 0px 54px 55px, rgba(7, 170, 252, 0.278) 0px -12px 30px, rgba(7, 170, 252, 0.278) 0px 4px 6px, rgba(7, 170, 252, 0.278) 0px 12px 13px, rgba(7, 170, 252, 0.278) 0px -3px 5px;
+    outline: 1px solid b7, rgba(7, 170, 252, 0.675);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Blue container customization */
+
+.top-line{
+    display: flex;
+    height: 20px;
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.location-icon{
+    width:12px;
+    /* margin-right:5px; */
+}
+
+.city{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-name{
+    font-size: 14px;
+}
+
+.four-squares{
+    width: 10px;
+}
+
+.four-squares-container{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-dots{
+    width: 15px;
+}
+
+.updating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 3px;
+    border: 1px solid white;
+    width: max-content;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+
+.updating-circle{
+    background-color: yellow;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+.updating-text{
+    font-size: 7px;
+    font-weight: lighter;
+}
+
+.weather-icon{
+    width: 100px;
+}
+
+.weather-icon-container{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.temp-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: top; */
+}
+
+.temp{
+    font-size: 70px;
+    text-align: center;
+    height: max-content;
+    z-index: 10;
+    margin-top: -12px;
+}
+
+.temp-circle{
+    width: 5px;
+    height: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.519);
+    border-radius: 50%;
+}
+
+.weather-condition{
+    z-index: 11;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.date{
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.631);
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+hr{
+    border-color: rgba(255, 255, 255, 0.294);
+    width: 150px;
+}
+
+/* bottom bar customizations */
+
+.blue-container-bottom-bar{
+    display: flex;
+    gap:30px;
+    margin-top: 10px;
+}
+
+.bottom-bar-weather-details{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.bottom-bar-icons{
+    width: 15px;
+}
+
+.weather-specs{
+    font-size: 8px;
+}
+
+.bottom-bar-weather-conditions{
+    font-size: 6px;
+    opacity: 0.5;
+}
+
+.black-container{
+    width: 200px;
+    /* background-color: white; */
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.black-bottom-bar{
+    display: flex;
+    gap: 75px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-bottom-bar-day{
+    font-size: 13px;
+}
+
+.black-bottom-bar-days{
+    font-size: 8px;
+    opacity: 0.6;
+}
+
+
+/* Sub details menu customizations */
+
+.sub-details-icons{
+    width: 20px;
+}
+
+.black-container-sub-details{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sub-details-temp{
+    font-size: 10px;
+}
+
+.sub-details-time{
+    font-size: 8px;
+}
+
+.sub-details{
+    padding:5px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.477);
+}
+
+.sub-details.active{
+    background: rgb(25,183,206);
+    background: linear-gradient(180deg, rgba(25,183,206,1) 0%, rgba(28,168,204,1) 59%, rgba(27,107,173,1) 92%);
+    border: none;
+}
